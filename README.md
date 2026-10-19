@@ -1,5 +1,9 @@
 # EMG–IMU Human State
 
+## 历史后端（已归档）
+
+本仓库保留早期独立 EMG–IMU 状态估计后端。完整系统的采集、分类与音乐反馈整合请访问 [EMG–IMU Music Interaction](https://github.com/boyandong/emg-imu-music-interaction)。下文是归档版本的接口和协议说明，不能据此推定当前主系统状态或真实受试者验收已完成。
+
 这是一个独立于采集前端的实时分类后端。它接收共享源时间轴上的
 `8 路 EMG + 3 路加速度 + 3 路角速度`（默认 200 Hz），每 40 ms
 输出一次方向、手部姿态、两条动作阶段、激活强度、运动强度、一致性、
